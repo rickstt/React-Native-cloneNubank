@@ -52,10 +52,9 @@ export default function App() {
 
         <View style={styles.navItem}>
           <View style={styles.bgNav}>
-            <Image style={styles.imgPix} source={{uri:
-              ("https://img.icons8.com/ios/50/pix.png")}} />
+            <MaterialCommunityIcons style={styles.imgPix} name="cash-plus" size={24} color="black" />
           </View>
-          <Text style={styles.txtNav}>Pix</Text>
+          <Text style={styles.txtNav}>Depositar</Text>
         </View>
 
         <View style={styles.navItem}>

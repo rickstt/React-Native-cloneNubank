@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
         margin: 28,
     },
     account:{
-        flex: 0.9,
+        flex: 1,
         backgroundColor: "#f1f1f1",
         width: "100%",
     },
@@ -44,11 +44,11 @@ export const styles = StyleSheet.create({
         justifyContent: "space-between",
         paddingLeft: 35,
         paddingRight: 35,
-        marginTop: 25
+        marginTop: 20
     },
     txtAccount:{
         fontSize: 17,
-        fontWeight: "bold",
+        fontWeight: "600",
     },
      
     accountInfo:{
@@ -64,18 +64,20 @@ export const styles = StyleSheet.create({
         backgroundColor: "#f1f1f1",
         width: "100%",
         flexDirection: "row",
+        marginTop: 20,
     },
     navItem:{
         justifyContent: "center",
         alignItems: "center",
-        width: "33%",
-        marginTop: 25,
+        width: "11%",
     },
     bgNav:{
         width: 60,
         height: 60,
         borderRadius: 100,
         backgroundColor: "#ddd",
+        marginLeft: 30,
+        position: "relative",
     },
     imgPix:{
         height: 25,
@@ -85,19 +87,73 @@ export const styles = StyleSheet.create({
         marginTop: 17,
     }, 
     txtNav:{
-        paddingRight:2,
-        marginTop: 10,
+        textAlign: "center",
+        fontSize: 12,
+        fontWeight: "600",
+        paddingLeft: 26,
+        marginTop: 5,
+    },
+    scrollNav:{
+        width: "100%",
     },
     card:{
-        flex: 1,
+        flex: 0.8,
         backgroundColor: "#f1f1f1",
+        width: "100%",
+        alignItems: "center",
+        marginTop: 30,
     },
-    info:{
-        flex: 1,
+    bgCard:{
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "#ddd",
+        borderRadius: 20,
+        width: "90%",
+        height: 65,
+    },
+    imgCard:{
+        height: 25,
+        width: 25,
+        marginLeft: 25,
+    },
+    txtCard:{
+        marginLeft: 15,
+        fontWeight: "600",
+    },
+    infos:{
+        flex: 0.6,
+        flexDirection: "row",
         backgroundColor: "#f1f1f1",
+        width: "100%",
+        alignItems: "center",
+        marginTop: 25,
+    },
+    infosNav:{
+        marginLeft: 20,
+        width: "25%",
+        height: 80,
+        borderRadius: 20,
+        backgroundColor: "#ddd",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    txtInfos:{
+        marginLeft: 20,
+        marginRight: 20,
+    },
+    txtMarcked: {
+        color: "#820ad1",
+    },
+    txtDimmer:{
+        color: "#999",
     },
     footer:{
-        
+        flex: 1,
+        width: "100%",
+    },
+    footerIcons:{
+        flexDirection: "row",
+        justifyContent: "space-around"
     },
 
     // Pré-definição de margem para todos os lados

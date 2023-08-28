@@ -147,13 +147,37 @@ export const styles = StyleSheet.create({
     txtDimmer:{
         color: "#999",
     },
-    footer:{
-        flex: 1,
-        width: "100%",
+    txtInstallments:{
+        fontWeight: "bold",
+        fontSize: 15,
+        backgroundColor: "#ddd",
+        padding: 20,
+        paddingLeft: 35,
+        borderRadius: 30,
+        width: 190,
     },
-    footerIcons:{
+    line:{
+        backgroundColor: "#ccc",
+        height: 1,
+        marginTop: 20,
+        marginBottom: 20,
+    },
+    txtMid:{
+        fontSize: 18,
+        fontWeight: "bold",
+    },
+    footer:{
+        backgroundColor: "#f1f1f1",
+        flex: 1,
+        width: 300,
+        borderRadius: 50,
+        padding: 20,
         flexDirection: "row",
-        justifyContent: "space-around"
+        justifyContent: "center",
+        alignItems: "center",
+        position: "fixed",
+        zIndex: 10000,
+        marginBottom: 10,
     },
 
     // Pré-definição de margem para todos os lados

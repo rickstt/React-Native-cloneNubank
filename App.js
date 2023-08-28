@@ -148,21 +148,48 @@ export default function App() {
           <Text style={styles.txtMoney}>R$ 297,46</Text>
           <Text style={styles.txtDimmer}>Limite disponível de ••••••</Text>
         </View>
+
+        <View style={styles.accountLine}>
+            <Text style={styles.txtInstallments}>Parcelar compras</Text>
+        </View>
       </View> 
 
-      <View style={styles.footer}>
-          <View style={styles.footerIcons}>
+      <View style={styles.line}></View>
+
+      <View style={styles.account}>
+        <Text style={{fontSize: 18, fontWeight: "bold", marginLeft: 30}}>Acompanhe também</Text>
+        <View style={styles.card}>
+        <View style={styles.bgCard}>
+          <Image style={styles.imgCard} source={{uri:
+            ("https://img.icons8.com/material-outlined/96/refund-2.png")}} />
+            <Text style={styles.txtCard}>Assistente de pagamentos</Text>
+        </View>
+      </View>
+      </View>
+      
+      <View style={styles.line}></View>
+
+      <View style={styles.account}>
+        <View style={styles.accountLine}>
+          <Text style={styles.txtMid}>Empréstimo</Text>
+          <Ionicons name="ios-chevron-forward" size={25} color="#000" />
+        </View>
+        <View style={styles.accountInfo}>
+          <Text style={styles.txtDimmer}>Limite disponível de ••••••</Text>
+        </View>
+      </View>
+
+    </ScrollView>
+
+    <View style={styles.footer}>
             <MaterialCommunityIcons name="swap-vertical" size={25} color="#820ad1" />
 
             <MaterialIcons name="attach-money" size={25} color="black" />
 
             <SimpleLineIcons name="bag" size={25} color="black" />
-          </View>
       </View>
-
-    </ScrollView>
     
-    <StatusBar style="auto" />
+    <StatusBar style="inverted" />
 
     </View>
   );
